@@ -1944,15 +1944,13 @@
 }
 
 
-/* =========================================================
-   MOBILE
-========================================================= */
+
 
 @media (max-width: 600px) {
 
   .footer-controls {
     padding:
-      22px 0 16px;
+      22px 0px 30px 16px;
   }
 
 
@@ -2024,33 +2022,4 @@
 }
 
 
-/* =========================================================
-   SMALL MOBILE
-========================================================= */
 
-@media (max-width: 380px) {
-
-  .footer-controls-inner {
-    width:
-      calc(100% - 28px);
-  }
-
-
-  .footer-caption {
-    font-size: 6.5px;
-  }
-
-
-  .footer-action {
-    width: 40px;
-    height: 40px;
-  }
-
-
-  .footer-actions {
-    gap: 20px;
-
-    margin-bottom: -20px;
-  }
-
-}
